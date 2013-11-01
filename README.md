@@ -1,4 +1,4 @@
-# Cordova GoogleAnalytics Plugin #
+# Cordova Control Status Bar Plugin #
 by Elvis Ferreira Coelho
 
 1. Make sure you are running Cordova(PhoneGap) 3.0 ++
