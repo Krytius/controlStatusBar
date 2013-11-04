@@ -16,22 +16,5 @@ window.plugins.controlStatusBar.show();
 window.plugins.controlStatusBar.hide();
 ```
 
-## IOS XCODE ##
-
-1.Add code MainViewController.m method viewDidLoad
-
-```bash
-	if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
-        // iOS 7
-        [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
-    } else {
-        // iOS 6
-        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
-    }
-    
-    [[UIApplication sharedApplication] setIdleTimerDisabled: YES];
-```
-
-
 ## BUGS AND CONTRIBUTIONS ##
 
