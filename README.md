@@ -9,6 +9,12 @@ phonegap local plugin add https://github.com/Krytius/controlStatusBar.git
 ```
 
 ## JAVASCRIPT INTERFACE ##
+```bash
+// Show status bar
+window.plugins.controlStatusBar.show();
+// Hide status bar
+window.plugins.controlStatusBar.hide();
+```
 
 ## IOS XCODE ##
 
